@@ -1,4 +1,4 @@
-import { isString, isValidUrl } from './utils.js';
+import { isString, isValidUrl } from './utils.mjs';
 
 export async function isWordPress(url) {
     try {

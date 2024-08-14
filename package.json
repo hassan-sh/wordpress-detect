@@ -1,6 +1,6 @@
 {
   "name": "wordpress-detect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A utility to detect if a website is running on WordPress.",
   "repository": "github:hassan-sh/mongoose-pagination-helper",
   "main": "src/index.js",

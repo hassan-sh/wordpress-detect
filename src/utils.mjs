@@ -1,8 +1,8 @@
-function isString(input) {
+export function isString(input) {
     return typeof input === 'string';
 }
 
-function isValidUrl(url) {
+export function isValidUrl(url) {
     try {
         new URL(url);
         return true;
@@ -10,5 +10,3 @@ function isValidUrl(url) {
         return false;
     }
 }
-
-module.exports = { isString, isValidUrl };
